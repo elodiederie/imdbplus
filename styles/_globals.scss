@@ -1,27 +1,27 @@
-@import './colors';
+@import "./colors";
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Karla', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Karla", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 20px;
+  background: #f98f06;
 }
-
 
 h2,
 h3,
 h4,
 .title {
-  font-family: 'Karla', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Karla", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: 700;
   line-height: 1.3em;
 }
 
 h1 {
-  font-family: 'Bungee Shade', cursive;
+  font-family: "Bungee Shade", cursive;
   font-size: 2em;
   line-height: 1.3em;
 
@@ -50,7 +50,8 @@ a {
   }
 }
 
-* {}
+* {
+}
 
 img {
   max-width: 100%;
@@ -70,8 +71,6 @@ footer {
 }
 
 @media (min-width: 1024px) {
-
-
   header {
     grid-column: 3 / span 8;
   }
@@ -86,8 +85,6 @@ footer {
 }
 
 @media (min-width: 1920px) {
-
-
   header {
     grid-column: 4 / span 6;
   }
