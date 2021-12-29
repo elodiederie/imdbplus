@@ -1,4 +1,4 @@
-@import '../styles/colors';
+@import "../styles/colors";
 
 .movie {
   .mainpicture {
@@ -26,53 +26,75 @@
       font-weight: 700;
     }
   }
+  .ageratinglist {
+    display: flex;
+    margin-bottom: 40px;
+
+    .agerating {
+      padding: 5px 20px;
+      background-color: $color-background-tag;
+      max-width: 100px;
+      margin-right: 10px;
+      font-weight: 700;
+    }
+  }
 
   .peoplesegment {
-    margin-top:40px;
+    margin-top: 40px;
     .title {
-
       font-size: 1.4em;
       font-weight: 800;
       margin-bottom: 20px;
-
     }
 
-    .content {}
+    .content {
+    }
   }
 
-  .title {}
+  .title {
+  }
 
-  .summary {}
+  .summary {
+  }
 
-  .synopsis {}
+  .synopsis {
+  }
 
-  .introduction {}
+  .introduction {
+  }
 
   .main_poster {
-    img {}
+    img {
+    }
   }
 
   .writers {
-    .writer {}
+    .writer {
+    }
   }
 
   .directors {
-    .director {}
+    .director {
+    }
   }
 
   .stars {
-    .star {}
+    .star {
+    }
   }
 
   .genres {
-    .genre {}
+    .genre {
+    }
   }
 
   .pictures {
-    .picture {}
+    .picture {
+    }
   }
 
   .trailers {
-    .trailer {}
+    .trailer {
+    }
   }
 }
