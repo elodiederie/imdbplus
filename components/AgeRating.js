@@ -3,13 +3,13 @@ import SbEditable from "storyblok-react"
 import { render } from "storyblok-rich-text-react-renderer"
 import styles from "../styles/Agerating.module.scss"
 
-const Agerating = ({ data }) => {
+const AgeRating = ({ data }) => {
   var content = data.story.content;
   return (
     <SbEditable content={content} key={content._uid}>
       <main>
         {/* <div className={[styles.movie, styles.test].join(' ')}> */}
-        <div className={styles.Agerating}>
+        <div className={styles.agerating}>
           <h1 className={styles.title}>
             {content.title}
           </h1>
@@ -22,4 +22,4 @@ const Agerating = ({ data }) => {
   )
 }
 
-export default Agerating
+export default AgeRating
