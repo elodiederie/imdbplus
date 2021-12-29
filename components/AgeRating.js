@@ -1,7 +1,7 @@
 import React from "react"
 import SbEditable from "storyblok-react"
 import { render } from "storyblok-rich-text-react-renderer"
-import styles from "../styles/Genre.module.scss"
+import styles from "../styles/Agerating.module.scss"
 
 const Agerating = ({ data }) => {
   var content = data.story.content;
@@ -9,7 +9,7 @@ const Agerating = ({ data }) => {
     <SbEditable content={content} key={content._uid}>
       <main>
         {/* <div className={[styles.movie, styles.test].join(' ')}> */}
-        <div className={styles.studio}>
+        <div className={styles.Agerating}>
           <h1 className={styles.title}>
             {content.title}
           </h1>
