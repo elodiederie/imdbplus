@@ -1,0 +1,81 @@
+@import '../styles/colors';
+
+.navigationwrapper{
+  @media (max-width: 1200px) {
+    display: none;
+  }
+}
+
+.navigation {
+  font-family: 'Karla', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: 900;
+  font-size: 1.1em;
+  display: flex;
+  padding: 40px 0 0 0;
+
+  .navlogo {
+    img {
+      min-width: 200px !important;
+    }
+  }
+
+  .navlinkswrapper {
+    display: flex;
+    align-items: center;
+    flex: 1;
+
+    .navlinks {
+      display: flex;
+      flex: 1;
+      padding: 0 0 0 25px;
+
+      .navlink {
+        margin-left: 10px;
+
+        a {
+          text-decoration: none;
+          padding: 5px 10px;
+          border: 5px solid transparent;
+
+          &:hover {
+            border: 5px solid black;
+          }
+
+          &.movie:hover {
+            border: 5px solid $color-primary;
+          }
+          &.personality:hover {
+            border: 5px solid $color-primary-personality;
+          }
+          &.newsitem:hover {
+            border: 5px solid $color-primary-newsitem;
+          }
+          &.product:hover {
+            border: 5px solid $color-primary-product;
+          }
+        }
+
+      }
+    }
+  }
+
+  .navlocales {
+    display: flex;
+    align-items: center;
+
+    .navlocale {
+      margin-left: 20px;
+
+      a {
+        text-decoration: none;
+        padding: 5px 10px;
+        border: 5px solid transparent;
+
+        &:hover {
+          border: 5px solid black;
+        }
+      }
+    }
+  }
+}

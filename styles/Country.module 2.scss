@@ -1,0 +1,15 @@
+@import '../styles/colors';
+
+.country {
+
+  background-color: $color-title-bg;
+  color: $color-title-fg;
+
+  .title {}
+
+  .flag {
+    img {}
+  }
+
+  .description {}
+}

@@ -1,0 +1,18 @@
+@import '../styles/colors';
+
+.relateditemgallery {
+  margin-top: 40px;
+  .title {
+    font-size: 1.4em;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+  .relateditems{
+    display: grid;
+    grid-template-columns: 1fr;
+    @media (min-width: 1024px) {
+      grid-template-columns: repeat(4,1fr);
+    }
+
+  }
+}

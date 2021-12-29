@@ -1,0 +1,41 @@
+@import '../styles/colors';
+
+
+.itemgallery {
+  margin-top: 80px;
+
+  .title {
+    font-size: 1.4em;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+
+  .gallerycontent {
+
+    display: flex;
+    flex-direction: column;
+
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .smallcardwrapper {
+      display: inline-block;
+      margin-bottom: 10px;
+      display: flex;
+      width: 100%;
+
+      @media (min-width: 768px) {
+        width: auto;
+      }
+    }
+
+    .title {
+      font-size: 1.4em;
+      font-weight: 800;
+      margin-bottom: 20px;
+    }
+  }
+}

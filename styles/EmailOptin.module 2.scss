@@ -1,0 +1,20 @@
+@import '../styles/colors';
+
+.emailoptin {
+    .optinbutton {
+        border: 5px black solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0;
+        padding: 10px 20px;
+        background-color: $color-primary-product;
+        color: black;
+        font-size: 0.9em;
+        font-weight: 800;
+        cursor: pointer;
+        &:hover{
+            background-color: $color-primary-newsitem;
+        }
+    }
+}

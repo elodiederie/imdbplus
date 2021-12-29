@@ -1,0 +1,30 @@
+@import '../styles/colors';
+
+.twocol {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  gap: 24px;
+
+  .one {
+    display: grid;
+  }
+
+  .two {
+    display: grid;
+  }
+}
+
+
+
+
+@media (min-width: 1650px) {
+  .twocol {
+    display: grid;
+    grid-template-columns: 8fr 6fr;
+
+    .one {}
+
+    .two {}
+  }
+}

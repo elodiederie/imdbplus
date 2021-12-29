@@ -1,0 +1,48 @@
+@import '../styles/colors';
+
+.personality {
+
+  .mainpicture {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 0 0px 10px #000;
+    margin-bottom: 40px;
+  }
+
+  .short {
+    font-weight: 800;
+  }
+
+  .countrylist{
+    display: flex;
+    margin-bottom: 40px;
+    .country{
+      margin-right: 10px;
+    }
+  }
+
+  h1{
+    margin-bottom: 10px;
+  }
+
+
+  .title {}
+
+  .first-name {}
+
+  .last-name {}
+
+  .date-of-birth {}
+
+  .nationalities {
+    .nationality {}
+  }
+
+  .bio {}
+
+  .pictures{
+    .picture{}
+  }
+}

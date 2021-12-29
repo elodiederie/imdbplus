@@ -1,0 +1,152 @@
+@import './colors';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Karla', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 20px;
+}
+
+
+h2,
+h3,
+h4,
+.title {
+  font-family: 'Karla', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: 700;
+  line-height: 1.3em;
+}
+
+h1 {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 2em;
+  line-height: 1.3em;
+
+  @media (min-width: 768px) {
+    font-size: 2.4em;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 2.8em;
+  }
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+a {
+  color: black;
+
+  &:visited {
+    color: black;
+  }
+}
+
+* {}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  grid-column: 2 / span 10;
+}
+
+main {
+  padding: 0 0 40px 0;
+  grid-column: 2 / span 10;
+}
+
+footer {
+  grid-column: 1 / span 12;
+}
+
+@media (min-width: 1024px) {
+
+
+  header {
+    grid-column: 3 / span 8;
+  }
+
+  main {
+    grid-column: 3 / span 8;
+  }
+
+  footer {
+    grid-column: 1 / span 12;
+  }
+}
+
+@media (min-width: 1920px) {
+
+
+  header {
+    grid-column: 4 / span 6;
+  }
+
+  main {
+    grid-column: 4 / span 6;
+  }
+
+  footer {
+    grid-column: 1 / span 12;
+  }
+}
+
+.react-multiple-carousel__arrow {
+  background: rgb(255 255 255) !important;
+  box-shadow: 2px 2px 0px rgb(0 0 0);
+  font-weight: 800;
+}
+
+.react-multiple-carousel__arrow::before {
+  color: #000 !important;
+}
+
+.bg-shadow-movie {
+  box-shadow: 10px 10px 0 $color-primary;
+}
+
+.bg-shadow-personality {
+  box-shadow: 10px 10px 0 $color-primary-personality;
+}
+
+.bg-shadow-newsitem {
+  box-shadow: 10px 10px 0 $color-primary-newsitem;
+}
+
+.bg-shadow-product {
+  box-shadow: 10px 10px 0 $color-primary-product;
+}
+
+iframe {
+  body {
+    margin: 0;
+  }
+}
+
+.sharebar {
+  display: flex;
+  margin: 20px 0 20px 0;
+
+  button {
+    margin-right: 10px !important;
+  }
+}
+
+.sib-form {
+  background-attachment: fixed;
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+  /* padding: 32px 12px 32px; */
+  margin: 0;
+  margin-top: 40px;
+}

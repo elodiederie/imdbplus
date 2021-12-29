@@ -1,0 +1,26 @@
+@import '../styles/colors';
+
+.layout {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto 1fr auto;
+  gap: 24px;
+}
+
+
+
+
+@media (min-width: 720px) {
+  .layout {
+    
+    grid-template-rows: auto 1fr auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .layout{
+    // Creating 4 rows and the 3rd row expands as much as it can
+    grid-template-rows: auto 1fr auto;
+  }
+}
