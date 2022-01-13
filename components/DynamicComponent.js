@@ -58,7 +58,7 @@ const Components = {
   'topmovies':TopMovies,
   'agerating':AgeRating,
   'surfspot':Surfspot,
-  'accommodation':Accommodation,
+  //'accommodation':Accommodation,
   'surfspotlist':SurfspotList
 }
 
