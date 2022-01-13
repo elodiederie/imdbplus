@@ -63,11 +63,7 @@ const Accommodation = ({ data, level }) => {
   } else {
     var content = data;
   }
-  if (content.surfspot) {
-    var surfspot = data.rels.filter(obj => {
-      return content.surfspot.includes(obj.uuid);
-    });
-  }
+ 
 
   const [products, setProducts] = useState([]);
   getData(data.story.uuid, locale, content.preview = false, 'product', 'movies').then(
