@@ -25,6 +25,9 @@ import TwoCol from './TwoCol'
 import Title from './Title'
 import TopMovies from './TopMovies'
 import AgeRating from './AgeRating'
+import Surfspot from './Surfspot'
+import Accommodation from './Accommodation'
+import SurfspotList from './SurfspotList'
 
 const Components = {
   'teaser': Teaser,
@@ -53,9 +56,11 @@ const Components = {
   'twocol':TwoCol,
   'title':Title,
   'topmovies':TopMovies,
-  'agerating':AgeRating
+  'agerating':AgeRating,
+  'surfspot':Surfspot,
+  'accommodation':Accommodation,
+  'surfspotlist':SurfspotList
 }
-
 
 const DynamicComponent = ({ data, locale }) => {
   let componentType='undefined';
