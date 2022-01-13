@@ -28,6 +28,7 @@ import AgeRating from './AgeRating'
 import Surfspot from './Surfspot'
 import Accommodation from './Accommodation'
 import SurfspotList from './SurfspotList'
+import AccommodationList from './AccommodationList'
 
 const Components = {
   'teaser': Teaser,
@@ -58,8 +59,9 @@ const Components = {
   'topmovies':TopMovies,
   'agerating':AgeRating,
   'surfspot':Surfspot,
-  //'accommodation':Accommodation,
-  'surfspotlist':SurfspotList
+  'accommodation':Accommodation,
+  'surfspotlist':SurfspotList,
+  'accommodationlist':AccommodationList
 }
 
 const DynamicComponent = ({ data, locale }) => {

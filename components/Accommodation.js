@@ -63,7 +63,6 @@ const Accommodation = ({ data, level }) => {
   } else {
     var content = data;
   }
- 
 
   const [products, setProducts] = useState([]);
   getData(data.story.uuid, locale, content.preview = false, 'product', 'movies').then(
@@ -79,6 +78,7 @@ const Accommodation = ({ data, level }) => {
 
   var pictures = content.pictures;
 
+
   //returning the HTML
   return (
     <SbEditable content={content} key={content._uid}>
@@ -89,23 +89,17 @@ const Accommodation = ({ data, level }) => {
             {content.title}
           </h1>
           
+          
+
           <div className={styles.mainpicture} style={{ backgroundImage: `url("${content.mainpicture.filename}")` }}>
           </div>
-          <div className={styles.imagegallery}>
-            <InPageSlideshow pictures={pictures}></InPageSlideshow>
-          </div> 
-          
+         
+
           <div className={styles.description}>
             {render(content.description)}
           </div>
-
-          <div className={styles.mainpicture2} style={{ backgroundImage: `url("${content.mainpicture2.filename}")` }}>
-          </div>
           
-
-          <div className={styles.mainpicture3} style={{ backgroundImage: `url("${content.mainpicture3.filename}")` }}>
-          </div>
-         
+          
         </div>
       </main>
     </SbEditable>
